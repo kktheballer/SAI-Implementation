@@ -6769,27 +6769,27 @@ static sai_status_t mlnx_port_speed_get_sp2(_In_ sx_port_log_id_t sx_port,
         *oper_speed = PORT_SPEED_25;
         break;
 
-    case SX_PORT_RATE_40G_E:
-        *oper_speed = PORT_SPEED_40;
-        break;
+    //case SX_PORT_RATE_40G_E:
+    //    *oper_speed = PORT_SPEED_40;
+    //    break;
 
-    case SX_PORT_RATE_50Gx1_E:
-    case SX_PORT_RATE_50Gx2_E:
-        *oper_speed = PORT_SPEED_50;
-        break;
+    //case SX_PORT_RATE_50Gx1_E:
+    //case SX_PORT_RATE_50Gx2_E:
+    //    *oper_speed = PORT_SPEED_50;
+    //    break;
 
-    case SX_PORT_RATE_100Gx2_E:
-    case SX_PORT_RATE_100Gx4_E:
-        *oper_speed = PORT_SPEED_100;
-        break;
+    //case SX_PORT_RATE_100Gx2_E:
+    //case SX_PORT_RATE_100Gx4_E:
+    //    *oper_speed = PORT_SPEED_100;
+    //    break;
 
-    case SX_PORT_RATE_200Gx4_E:
-        *oper_speed = PORT_SPEED_200;
-        break;
+    //case SX_PORT_RATE_200Gx4_E:
+    //    *oper_speed = PORT_SPEED_200;
+    //    break;
 
-    case SX_PORT_RATE_400Gx8_E:
-        *oper_speed = PORT_SPEED_400;
-        break;
+    //case SX_PORT_RATE_400Gx8_E:
+    //    *oper_speed = PORT_SPEED_400;
+    //    break;
 
     default:
         SX_LOG_ERR("Unexpected port oper rate %d\n", oper_rate);
